@@ -1,0 +1,7 @@
+﻿<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="32" fill="#eaf2f3" />
+  <rect x="100" y="120" width="1000" height="560" rx="24" fill="#ffffff" stroke="#cfd9d9" stroke-width="4" />
+  <text x="140" y="220" fill="#6b7c7c" font-family="Arial" font-size="40" font-weight="600">
+    Project Preview
+  </text>
+</svg>

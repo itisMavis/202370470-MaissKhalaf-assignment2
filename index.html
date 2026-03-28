@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maiss Khalaf | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Header with site navigation and hero intro -->
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary">
+        <div class="logo">Maiss Khalaf</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="hero container">
+        <div class="hero-text">
+          <p class="eyebrow" id="greeting">Welcome</p>
+          <h1>Maiss Khalaf</h1>
+          <p class="tagline">Turning ideas into practical and structured solutions.</p>
+        </div>
+      </section>
+    </header>
+
+    <!-- Main content sections -->
+    <main id="main">
+      <!-- About section with short intro -->
+      <section id="about" class="section">
+        <div class="container section-grid">
+          <div>
+            <h2>About Me</h2>
+            <p>
+              Hi, I'm Maiss Khalaf, a junior Computer Science student passionate about Artificial Intelligence and Machine Learning. 
+              I strive to apply programming, analytical, and problem-solving skills to build intelligent, efficient, and reliable software solutions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section with placeholders -->
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="card-grid">
+            <article class="card">
+              <img
+                src="assets/images/project-placeholder.svg"
+                alt="Placeholder image for the Library Management System project"
+              />
+              <div class="card-body">
+                <h3>Library Management System (Python)</h3>
+                <p>
+                  A Python-based application that manages library operations, including
+                  adding, removing, searching, and issuing books. Built with object-oriented
+                  design to keep records organized and workflows efficient.
+                </p>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                src="assets/images/project-placeholder.svg"
+                alt="Placeholder image for the Midterm Exam Scheduling System project"
+              />
+              <div class="card-body">
+                <h3>Midterm Exam Scheduling System - KFUPM</h3>
+                <p>
+                  A scheduling system that automates midterm exam timetables, minimizes
+                  student conflicts, and optimizes room allocations based on course and
+                  instructor constraints.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements section -->
+      <section id="achievements" class="section">
+        <div class="container">
+          <h2>Achievements</h2>
+          <ul class="achievement-list">
+            <li>1st Place - Great Debate Competition (KFUPM Business School).</li>
+            <li>Dean's Honor List for terms 241, 242, and 252.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact section with form (no backend) -->
+      <section id="contact" class="section section-alt">
+        <div class="container section-grid">
+          <div>
+            <h2>Contact</h2>
+            <p>
+              If you would like to connect about opportunities or collaborations, feel free
+              to send a message.
+            </p>
+            <div class="contact-details">
+              <p><strong>Name:</strong> Maiss Khalaf</p>
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:maiss.a.khalaf704@gmail.com">maiss.a.khalaf704@gmail.com</a>
+              </p>
+            </div>
+          </div>
+          <form class="contact-form" aria-label="Contact form">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@email.com" required />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Write your message"
+              required
+            ></textarea>
+
+            <button class="button" type="submit">Send Message</button>
+            <p class="form-note" id="form-note" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,254 @@
+﻿/* Color palette and reusable tokens */
+:root {
+  --bg: #f7fbfb;
+  --surface: #ffffff;
+  --surface-alt: #eef6f6;
+  --primary: #1e88e5;
+  --accent: #1bb7a7;
+  --text: #1f2a2a;
+  --muted: #5a6b6b;
+  --border: #dbe7e6;
+}
+
+/* Base reset for consistent sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth scrolling for in-page navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global body typography and background */
+body {
+  min-height: 100vh;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Basic media elements */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Centered content wrapper */
+.container {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 16px;
+  padding: 8px 16px;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 6px;
+  z-index: 999;
+}
+
+.skip-link:focus {
+  left: 16px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+/* Top navigation layout */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: var(--text);
+}
+
+/* Hero layout using CSS Grid */
+.hero {
+  padding: 36px 0 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 28px;
+  align-items: center;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-weight: 500;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+
+/* Shared section spacing */
+.section {
+  padding: 48px 0;
+}
+
+.section-alt {
+  background: var(--surface-alt);
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+
+/* Two-column layout that collapses on small screens */
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+/* Project cards grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.achievement-list {
+  list-style: disc;
+  padding-left: 18px;
+  color: var(--muted);
+  display: grid;
+  gap: 8px;
+}
+
+.contact-details {
+  margin-top: 14px;
+  display: grid;
+  gap: 8px;
+}
+
+/* Contact form layout */
+.contact-form {
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.form-note {
+  min-height: 20px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.form-note.visible {
+  color: var(--accent);
+}
+
+/* Mobile tweaks */
+@media (max-width: 720px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #031114;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: var(--shadow);
+}
