@@ -22,8 +22,10 @@ A responsive personal portfolio featuring an About section, Projects, Achievemen
 - Submit the contact form with a valid email to see a confirmation message. Invalid or empty fields show an error prompt.
 
 ## Setup Instructions
-1. Open `index.html` in a web browser.
-2. Optional: Use a local development server (such as VS Code Live Server) for auto-reload while editing.
+1. Clone the repository: git clone https://github.com/your-username/202370470-MaissKhalaf-assignment2.git
+2. Navigate to the project folder.
+3. Open index.html in a web browser.
+Optional: Use a local development server such as VS Code Live Server for automatic reload during development.
 
 ## AI Use Summary
 ChatGPT (Codex) was used to help plan the interactive features, draft the fetch and error-handling logic, and update documentation. More details are available in `docs/ai-usage-report.md`.
