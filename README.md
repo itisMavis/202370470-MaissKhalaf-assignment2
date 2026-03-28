@@ -22,7 +22,7 @@ A responsive personal portfolio featuring an About section, Projects, Achievemen
 - Submit the contact form with a valid email to see a confirmation message. Invalid or empty fields show an error prompt.
 
 ## Setup Instructions
-1. Clone the repository: git clone https://github.com/your-username/202370470-MaissKhalaf-assignment2.git
+1. Clone the repository: git clone https://github.com/itisMavis/202370470-MaissKhalaf-assignment2.git
 2. Navigate to the project folder.
 3. Open index.html in a web browser.
 
