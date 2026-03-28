@@ -1,7 +1,7 @@
-﻿# assignment-2
+﻿# 202370470-MaissKhalaf-assignment2
 
 ## Project Description
-An enhanced personal portfolio website for Assignment 2. It builds on the Assignment 1 layout and adds interactive features like a personalized greeting and an API-powered insight section.
+A responsive personal portfolio featuring an About section, Projects, Achievements, and a Contact form. The site uses HTML, CSS, and JavaScript with a modern design, including a personalized greeting and an API-powered insight feature.
 
 ## Technologies Used
 - HTML
