@@ -1,32 +1,27 @@
-# 202370470-MaissKhalaf-assignment1
+﻿# assignment-2
 
 ## Project Description
-A responsive personal portfolio featuring an About section, Projects, Achievements, and a Contact form. The site uses HTML, CSS, and JavaScript with a modern design and a time-based greeting.
+An enhanced personal portfolio website for Assignment 2. It builds on the Assignment 1 layout and adds interactive features like a personalized greeting and an API-powered insight section.
 
-Technologies Used
+## Technologies Used
 - HTML
 - CSS
-- JavaScript 
+- JavaScript
 
 ## Features
-
 1. Responsive layout (desktop, tablet, mobile)
-2. Dynamic greeting based on time of day
-3. Clean and modern styling
-4. Organized project showcase
-5. Contact form (front-end only)
+2. Personalized greeting that updates based on user input and time of day
+3. API-powered insight section (Advice Slip API) with loading and error states
+4. Clean, minimal styling with subtle hover effects
+5. Organized project showcase and contact form
+6. Contact form validation with a confirmation message
 
 ## Setup Instructions
-1. Clone the repository:
-   git clone https://github.com/your-username/202370470-MaissKhalaf-assignment1.git
-2. Navigate to the project folder.
-3. Open `index.html` in a web browser.
-
-Optional:
-Use a local development server such as VS Code Live Server for automatic reload during development.
+1. Open `index.html` in a web browser.
+2. Optional: Use a local development server (such as VS Code Live Server) for auto-reload while editing.
 
 ## AI Use Summary
-OpenAI Codex (ChatGPT) was used primarily to support specific parts of the development process, including styling in CSS and guidance for implementing the time-based greeting feature in JavaScript. The core structure and overall implementation were developed independently, with AI serving as a supplementary tool for refinement and clarification. More details are available in docs/ai-usage-report.md.
+ChatGPT (Codex) was used to help plan the interactive features, draft the fetch and error-handling logic, and update documentation. More details are available in `docs/ai-usage-report.md`.
 
 ## Live Deployment
-Not deployed yet. 
+Not deployed yet.
