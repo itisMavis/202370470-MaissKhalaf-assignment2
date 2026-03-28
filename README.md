@@ -25,6 +25,7 @@ A responsive personal portfolio featuring an About section, Projects, Achievemen
 1. Clone the repository: git clone https://github.com/your-username/202370470-MaissKhalaf-assignment2.git
 2. Navigate to the project folder.
 3. Open index.html in a web browser.
+
 Optional: Use a local development server such as VS Code Live Server for automatic reload during development.
 
 ## AI Use Summary
