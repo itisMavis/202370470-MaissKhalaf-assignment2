@@ -29,7 +29,7 @@ A responsive personal portfolio featuring an About section, Projects, Achievemen
 Optional: Use a local development server such as VS Code Live Server for automatic reload during development.
 
 ## AI Use Summary
-ChatGPT (Codex) was used to help plan the interactive features, draft the fetch and error-handling logic, and update documentation. More details are available in `docs/ai-usage-report.md`.
+OpenAI Codex (ChatGPT) was used primarily to support specific parts of the development process, including guidance for implementing interactive features such as the personalized greeting and the API-based insight section, as well as assisting with CSS refinements. The core structure and overall implementation were developed independently, with AI serving as a supplementary tool for refinement, debugging, and clarification. More details are available in docs/ai-usage-report.md.
 
 ## Live Deployment
 Not deployed yet.
