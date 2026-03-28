@@ -16,6 +16,11 @@ An enhanced personal portfolio website for Assignment 2. It builds on the Assign
 5. Organized project showcase and contact form
 6. Contact form validation with a confirmation message
 
+## How to Use
+- Type your name in the greeting input to see a personalized message.
+- Click **Load Tip** to show a new short insight.
+- Submit the contact form with a valid email to see a confirmation message. Invalid or empty fields show an error prompt.
+
 ## Setup Instructions
 1. Open `index.html` in a web browser.
 2. Optional: Use a local development server (such as VS Code Live Server) for auto-reload while editing.
